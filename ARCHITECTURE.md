@@ -53,7 +53,7 @@ source.unn
 - **Output**: Executable code (assembly, C, bytecode, etc.)
 - **What it does**: Converts tree structure to machine instructions
 
-## Fixes Made to Your Code
+## Fixes Made to Code
 
 | Issue | Old Code | Fixed |
 |-------|----------|-------|
@@ -64,7 +64,7 @@ source.unn
 | **Memory leaks** | Scattered malloc/free | Centralized in token/stream functions |
 | **Error handling** | None | Added null checks and error messages |
 
-## Your Current Language Grammar
+## Current Language Grammar
 
 ```
 PROGRAM     → STATEMENT*
@@ -264,7 +264,7 @@ Week 7+:  Advanced features
 
 ## File Organization for Growth
 
-As you add features, organize like this:
+As features are added, organize like this:
 
 ```
 src/
